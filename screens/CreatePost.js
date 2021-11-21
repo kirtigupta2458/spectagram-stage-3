@@ -68,29 +68,13 @@ export default class CreatePost extends Component {
                                     { label: "Image 6", value: "image_6" },
                                     { label: "Image 7", value: "image_7" }
                                 ]}
-                                defaultValue={this.state.previewImage}
-                                containerStyle={{
-                                    height: 40,
-                                    borderRadius: 20,
-                                    marginBottom: 10
-                                }}
-                                onOpen={() => {
-                                    this.setState({ dropdownHeight: 170 });
-                                }}
-                                onClose={() => {
-                                    this.setState({ dropdownHeight: 40 });
-                                }}
-                                style={{ backgroundColor: "transparent" }}
-                                itemStyle={{
-                                    justifyContent: "flex-start"
-                                }}
-                                dropDownStyle={{ backgroundColor: "#2a2a2a" }}
-                                labelStyle={{
-                                    color: "white"
-                                }}
-                                arrowStyle={{
-                                    color: "white"
-                                }}
+                               
+
+
+
+
+
+
                                 onChangeItem={item =>
                                     this.setState({
                                         previewImage: item.value
